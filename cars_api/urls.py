@@ -12,5 +12,5 @@ api_urls = [
 ]
 
 urlpatterns += [
-    path('api/', include((api_urls, 'api'), namespace='api'))
+    path('', include((api_urls, 'api'), namespace='api'))
 ]
